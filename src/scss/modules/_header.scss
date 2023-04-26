@@ -1,0 +1,12 @@
+@media (max-width: 992px) {
+  .header-button-language,
+  .header-button-stars {
+    display: none;
+  }
+}
+
+h1 {
+  font-family: "satoshi";
+  font-weight: 700;
+  font-size: 32px;
+}

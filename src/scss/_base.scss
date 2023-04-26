@@ -42,3 +42,35 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 400;
+  src: url("../src/fonts/Satoshi-Regular.woff2") format(‘woff2’);
+}
+
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 600;
+  src: url("../src/fonts/Satoshi-Medium.woff2") format(‘woff2’);
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 700;
+  src: url("../src/fonts/Satoshi-Bold.woff2") format(‘woff2’);
+}
+
+* {
+  font-family: "Satoshi";
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "satoshi";
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/*font-family: "semplicitapro", sans-serif;
+font-weight: 400;
+font-style: normal;*/
