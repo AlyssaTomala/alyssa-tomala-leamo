@@ -6,7 +6,29 @@
 }
 
 h1 {
-  font-family: "satoshi";
+  font-family: "Satoshi";
   font-weight: 700;
   font-size: 32px;
+  opacity: 0.9;
+  font-size: 32px;
+  letter-spacing: -0.83px;
+  text-align: center;
+  padding: 100px 0 65px;
+  -webkit-text-stroke: 0.2px;
+  -webkit-text-stroke-color: #fff5d7;
+}
+
+.header-logo img {
+  height: 25px;
+  justify-content: center;
+}
+
+.header-burger-menu {
+  height: 25px;
+}
+
+.header-nav-mobile {
+  padding: 15px 21px 11px;
+  position: fixed;
+  z-index: 2;
 }
