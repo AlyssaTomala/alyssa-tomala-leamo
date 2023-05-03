@@ -1,6 +1,13 @@
+@media (min-width: 992px) {
+  hr {
+    display: none;
+  }
+}
+
 .about {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .about-btn {
@@ -10,6 +17,7 @@
   justify-content: space-around;
   width: 165px;
   height: 45px;
+  margin: 30px 0;
 }
 
 .about-btn p {
@@ -25,16 +33,32 @@
   border: #95a379 2px solid;
 }
 
-.about-btn-shops {
+.about-btn-shops,
+.about-btn-recipes {
   background-color: #95a379;
   border: #95a379 2px solid;
   color: white;
 }
 
-.about-btn-shops p {
+.about-btn-shops p,
+.about-btn-recipes p {
   color: white;
 }
 
 .about a {
   text-decoration: none;
+}
+
+hr {
+  width: 420px;
+  margin: auto;
+  background-color: #95a37982;
+  height: 1.5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.about-recipes h2,
+.about-discover h2 {
+  padding-top: 25px;
 }

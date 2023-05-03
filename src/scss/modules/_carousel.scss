@@ -1,3 +1,9 @@
+@media (min-width: 992px) {
+  .carousel {
+    display: none;
+  }
+}
+
 .carousel {
   width: 100%;
   padding: 42px 0;
@@ -19,6 +25,30 @@
   height: 380px;
   position: absolute;
   transition: all 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+.slide a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.slide p {
+  position: absolute;
+  top: 40%;
+  color: #ffffff;
+  font-family: "semplicitapro", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 2.82px;
+  text-align: center;
+  text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.slide .carousel-higher {
+  top: 35%;
 }
 
 .slide img {
