@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 165px;
+  height: 45px;
+}
+
+.about-btn p {
+  font-size: 12px;
+  padding: 15px 5px;
+}
+
+.about-btn img {
+  height: 19px;
+}
+
+.about-btn-looking {
+  border: #95a379 2px solid;
+}
+
+.about-btn-shops {
+  background-color: #95a379;
+  border: #95a379 2px solid;
+  color: white;
+}
+
+.about-btn-shops p {
+  color: white;
+}
+
+.about a {
+  text-decoration: none;
+}

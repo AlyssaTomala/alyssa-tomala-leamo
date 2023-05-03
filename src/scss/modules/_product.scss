@@ -1,0 +1,35 @@
+@media (max-width: 992px) {
+  .product-desktop-img img {
+    display: none;
+  }
+}
+
+h2,
+p {
+  padding: 0 32px;
+}
+
+h2 span {
+  font-family: "semplicitapro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  color: #95a379;
+  letter-spacing: 5.06px;
+}
+
+p {
+  font-size: 18px;
+  color: #4d604a;
+  letter-spacing: 1.58px;
+  padding-top: 14px;
+}
+
+.product-img {
+  padding-bottom: 25px;
+}
+
+.product-desktop-img {
+  display: flex;
+  flex-direction: row;
+}
