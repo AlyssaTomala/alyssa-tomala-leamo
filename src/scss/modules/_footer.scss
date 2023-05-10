@@ -1,0 +1,59 @@
+.footer-logo {
+  padding: 25px 15px 50px;
+}
+
+.footer-btn-alterfood {
+  height: 25px;
+  margin-top: 10px;
+}
+
+.footer-btn-leamo {
+  height: 45px;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.763);
+  letter-spacing: 1.94px;
+  line-height: 33px;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+footer h3 {
+  opacity: 0.6;
+  font-family: SemplicitaPro-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 2.21px;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+}
+
+.footer-separation {
+  width: 445px;
+  margin-top: 15px;
+}
+
+.footer-credits {
+  opacity: 0.8;
+  font-size: 16px;
+  color: rgba(255, 255, 255);
+  letter-spacing: 2.53px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.footer-credits span {
+  text-decoration: underline rgba(255, 255, 255, 0.8) 1px;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-contacts img {
+  padding: 20px 15px;
+}

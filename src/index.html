@@ -10,27 +10,29 @@
   <body>
     <header>
       <div class="header-background-img">
-        <div class="container-fluid header-nav-mobile">
-          <div class="row no-gutter">
-            <div class="col-2">
-              <div class="header-burger-menu">
-                <a href="">
-                  <img src="src/img/button-burger-menu.svg" alt="" />
-                </a>
+        <div class="container-fluid header-nav-mobile" id="navbar">
+          <div class="header-bg">
+            <div class="row no-gutter">
+              <div class="col-2">
+                <div class="header-burger-menu">
+                  <a href="">
+                    <img src="src/img/button-burger-menu.svg" alt="" />
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="col-9 col-lg-8">
-              <div class="header-logo">
-                <a href="">
-                  <img src="src/img/header-leamo.svg" alt="" />
-                </a>
+              <div class="col-9 col-lg-8">
+                <div class="header-logo">
+                  <a href="">
+                    <img src="src/img/header-leamo.svg" alt="" />
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="col-1 col-lg-2">
-              <div class="header-button-language">
-                <a href="">FR |</a>
-                <a href="">DE |</a>
-                <a href="">EN</a>
+              <div class="col-1 col-lg-2">
+                <div class="header-button-language">
+                  <a href="">FR |</a>
+                  <a href="">DE |</a>
+                  <a href="">EN</a>
+                </div>
               </div>
             </div>
           </div>
@@ -240,7 +242,7 @@
                 <div class="row">
                   <div class="slider">
                     <div class="slide">
-                      <a href="">
+                      <a href="productlimonade.html">
                         <img src="src/img/showcase-limonade01.webp" alt="" />
                       </a>
                     </div>
@@ -535,7 +537,7 @@
           </div>
         </div>
       </div>
-      <hr />
+      <hr class="about-separation" />
       <div class="about-recipes">
         <div class="container">
           <div class="row no-gutter">
@@ -676,9 +678,17 @@
           </div>
           <div class="showcase">
             <div class="row">
-              <div class="col-lg-4">ginger 1 (effacer mobile)</div>
-              <div class="col-lg-4">ginger 2 (effacer mobile)</div>
-              <div class="col-lg-4">ginger 3 (effacer mobile)</div>
+              <div class="product-desktop-img">
+                <a href="">
+                  <img src="src/img/showcase-ginger01.webp" alt=""
+                /></a>
+                <a href="">
+                  <img src="src/img/showcase-ginger01.webp" alt=""
+                /></a>
+                <a href="">
+                  <img src="src/img/showcase-ginger01.webp" alt=""
+                /></a>
+              </div>
             </div>
           </div>
         </div>
@@ -689,36 +699,58 @@
         <div class="row">
           <div class="col-6 col-lg-3">
             <div class="row">
-              <div class="col-12">leamo logo</div>
-              <div class="col-12">alterfood logo</div>
+              <div class="footer-logo">
+                <div class="col-12">
+                  <img
+                    src="src/img/footer-leamo.svg"
+                    class="footer-btn-leamo"
+                  />
+                </div>
+                <div class="col-12">
+                  <img
+                    src="src/img/button-alterfood.svg"
+                    class="footer-btn-alterfood"
+                  />
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-6 col-lg-1"></div>
           <div class="col-6 col-lg-3">
-            Rubriques
+            <h3>Rubriques</h3>
             <div class="row">
-              <div class="col-12">Accueil</div>
-              <div class="col-12">Sodas</div>
-              <div class="col-12">Limonades</div>
-              <div class="col-12">Tonics</div>
-              <div class="col-12">Gingers</div>
-              <div class="col-12">Nous trouver</div>
-              <div class="col-12">Découvrir</div>
+              <div class="col-12"><a href="">Accueil</a></div>
+              <div class="col-12"><a href="">Sodas</a></div>
+              <div class="col-12"><a href="">Limonades</a></div>
+              <div class="col-12"><a href="">Tonics</a></div>
+              <div class="col-12"><a href="">Gingers</a></div>
+              <div class="col-12"><a href="">Nous trouver</a></div>
+              <div class="col-12"><a href="">Découvrir</a></div>
             </div>
           </div>
           <div class="col-6 col-lg-5">
-            Accès
+            <h3>Accès</h3>
             <div class="row">
-              <div class="col-12">A propos</div>
-              <div class="col-12">Mentions légales</div>
-              <div class="col-12">Contribuer</div>
-              <div class="col-12">Nous contacter</div>
-              <div class="col-12">AlterShop</div>
+              <div class="col-12"><a href="">à propos</a></div>
+              <div class="col-12"><a href="">Mentions légales</a></div>
+              <div class="col-12"><a href="">Contribuer</a></div>
+              <div class="col-12"><a href="">Nous contacter</a></div>
+              <div class="col-12"><a href="">AlterShop</a></div>
             </div>
           </div>
-          <hr />
-          <div class="col-12 col-lg-6">Credits</div>
-          <div class="col-12 col-lg-2 offset-lg-4">logos</div>
+          <hr class="footer-separation" />
+          <div class="col-12 col-lg-6">
+            <p class="footer-credits">
+              ® LEAMO is a brand from <span> Alterfood</span>
+            </p>
+          </div>
+          <div class="col-12 col-lg-2 offset-lg-4">
+            <div class="footer-contacts">
+              <a href=""> <img src="src/img/button-facebook.svg" alt="" /></a>
+              <a href=""> <img src="src/img/button-instagram.svg" alt="" /></a>
+              <a href=""> <img src="src/img/footer-twitter.svg" alt="" /></a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
