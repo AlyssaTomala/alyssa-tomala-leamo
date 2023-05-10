@@ -4,6 +4,27 @@
   }
 }
 
+@media (min-width: 992px) {
+  .product-h2 h2,
+  .product p {
+    position: relative;
+    left: 100px;
+  }
+  .product-soda-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .product {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .product-inverse p {
+    position: relative;
+    left: 0px;
+  }
+}
 h2,
 p {
   padding: 0 32px;

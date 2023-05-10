@@ -5,6 +5,19 @@
   }
 }
 
+@media (min-width: 992px) {
+  header h1 {
+    font-size: 58px;
+    margin-top: 220px;
+  }
+  header br {
+    display: none;
+  }
+  header .header-button-stars {
+    padding-bottom: 186px;
+  }
+}
+
 h1 {
   font-family: "Satoshi";
   font-weight: 700;
@@ -39,4 +52,32 @@ h1 {
 .bgColor {
   background: #fff5d7ef;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.03);
+}
+
+.header-button-language {
+  font-family: "satoshi";
+  font-weight: 700;
+  font-size: 16px;
+  color: #95a379;
+  letter-spacing: -0.42px;
+}
+
+.header-button-language a {
+  text-decoration: none;
+  color: #4d604a;
+}
+
+.header-button-language a:hover {
+  text-decoration: none;
+  color: #95a379;
+}
+
+.header-button-stars img {
+  height: 49px;
+  padding: 0 20px;
+  margin-bottom: 150px;
+}
+
+.header-button-stars a {
+  text-decoration: none;
 }
