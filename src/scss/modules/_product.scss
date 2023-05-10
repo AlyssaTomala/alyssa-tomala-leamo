@@ -2,14 +2,25 @@
   .product-desktop-img img {
     display: none;
   }
+  .product-reversed {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media (min-width: 992px) {
-  .product-h2 h2,
-  .product p {
+  .product-text-right {
     position: relative;
-    left: 100px;
+    left: 70px;
+    margin-right: 130px;
   }
+
+  .product-text-left {
+    position: relative;
+    left: 70px;
+    margin-right: 130px;
+  }
+
   .product-soda-container {
     display: flex;
     flex-direction: row;
@@ -20,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .product-inverse p {
+  .product-reversed p {
     position: relative;
     left: 0px;
   }
