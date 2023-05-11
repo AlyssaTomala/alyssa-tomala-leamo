@@ -2,6 +2,10 @@
   .product-desktop-img img {
     display: none;
   }
+
+  .product-img {
+    padding-bottom: 25px;
+  }
   .product-reversed {
     display: flex;
     flex-direction: column-reverse;
@@ -55,10 +59,6 @@ p {
   color: #4d604a;
   letter-spacing: 1.58px;
   padding-top: 14px;
-}
-
-.product-img {
-  padding-bottom: 25px;
 }
 
 .product-desktop-img {
