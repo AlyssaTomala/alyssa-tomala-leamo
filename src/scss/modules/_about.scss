@@ -7,7 +7,13 @@
 .about {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.about-shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .about-btn {
@@ -45,7 +51,8 @@
   color: white;
 }
 
-.about a {
+.about a,
+.about-shop a {
   text-decoration: none;
 }
 
@@ -64,6 +71,16 @@ hr {
 }
 
 .about-title h2 {
-  padding-left: 20px;
-  text-align: center;
+  padding-left: 30px;
+}
+
+.about-btn-shop {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+
+.about-recipes {
+  background-color: hsla(29, 64%, 91%, 0.15);
+  padding: 20px 0;
 }

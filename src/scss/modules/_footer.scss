@@ -1,3 +1,16 @@
+@media (min-width: 992px) {
+  footer h3 {
+    padding-top: 60px;
+  }
+  footer .footer-logo {
+    padding-top: 70px;
+  }
+
+  footer .footer-separation {
+    margin-top: 40px;
+  }
+}
+
 .footer-logo {
   padding: 25px 15px 50px;
 }
@@ -31,7 +44,7 @@ footer h3 {
 }
 
 .footer-separation {
-  width: 445px;
+  width: auto;
   margin-top: 15px;
 }
 
