@@ -1,0 +1,30 @@
+.hover-title {
+  font-family: "semplicitapro", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 2.99px;
+  text-shadow: 0 2px 19px rgba(0, 0, 0, 0.22);
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s 0.03s ease-in-out;
+}
+
+.hover-showcase-title {
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.hover-container {
+  position: relative;
+}
+
+.hover-container:hover .hover-title {
+  opacity: 100%;
+}

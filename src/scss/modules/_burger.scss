@@ -1,0 +1,46 @@
+.burger-nav {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  font-size: 20px;
+  top: -400px;
+  position: absolute;
+  z-index: 2;
+  background-image: linear-gradient(
+    128deg,
+    #95a379 0%,
+    rgba(196, 200, 147, 0.85) 100%
+  );
+  box-shadow: 2px 2px 8px 0 rgba(112, 112, 112, 0.11);
+}
+
+.burger-nav.is-open {
+  opacity: 1;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 890px;
+}
+
+.burger-product p {
+  font-family: "semplicitapro", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 3.96px;
+  line-height: 45px;
+}
+
+.burger-product p:hover {
+  color: #4d604a;
+}
+
+.burger-product a {
+  text-decoration: none;
+}
+
+.burger-product {
+  padding: 150px 0 0 20px;
+}

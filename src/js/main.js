@@ -50,3 +50,13 @@ function changeBg() {
 }
 
 window.addEventListener("scroll", changeBg);
+
+var burger = document.querySelector(".header-burger-menu");
+var navigation = document.querySelector(".burger-nav");
+var openNavigation = function (event) {
+  event.preventDefault();
+  navigation.classList.toggle("is-open");
+  burger.classList.toggle("is-active");
+};
+
+burger.addEventListener("click", openNavigation);

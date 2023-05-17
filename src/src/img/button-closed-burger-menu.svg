@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="69px" viewBox="0 0 68 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Burger - close</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-|-Accueil---hover" transform="translate(-32.000000, -18.000000)" fill="#4D604A">
+            <g id="Burger-menu---open" transform="translate(-0.000000, 0.000000)">
+                <g id="Burger---close" transform="translate(65.926795, 52.500000) rotate(45.000000) translate(-65.926795, -52.500000) translate(42.007060, 28.812620)">
+                    <rect id="Rectangle" x="-3.21729663e-14" y="20.3831618" width="47.8394695" height="6.6084356"></rect>
+                    <polygon id="Rectangle" transform="translate(23.919735, 23.687380) rotate(90.000000) translate(-23.919735, -23.687380) " points="0.232355216 20.3507499 47.6071143 20.3507499 47.6071143 27.0240092 0.232355216 27.0240092"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

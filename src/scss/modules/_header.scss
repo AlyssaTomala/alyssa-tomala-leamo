@@ -39,12 +39,14 @@ h1 {
 
 .header-burger-menu {
   height: 25px;
+  position: relative;
+  z-index: 6000;
 }
 
 .header-nav-mobile {
   padding: 15px 21px 11px;
   position: fixed;
-  z-index: 5;
+  z-index: 1000;
   height: 55px;
   width: 100%;
 }
