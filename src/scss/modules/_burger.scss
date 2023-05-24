@@ -33,14 +33,108 @@
   line-height: 45px;
 }
 
-.burger-product p:hover {
+.burger-product p:hover,
+.burger-contact img:hover,
+.burger-about p:hover {
   color: #4d604a;
 }
 
-.burger-product a {
+.burger-product a,
+.burger-contact a,
+.burger-about a {
   text-decoration: none;
 }
 
 .burger-product {
-  padding: 150px 0 0 20px;
+  padding: 150px 0 0 60px;
+}
+
+.burger-contact img {
+  padding: 0 10px;
+}
+
+.burger-contact {
+  padding: 100px 85px 0;
+}
+
+.burger-about-text {
+  font-family: "satoshi";
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 2.11px;
+  line-height: 30px;
+}
+
+.burger-about {
+  padding: 5px 60px;
+}
+
+.burger-test {
+  background-color: #aaecaa00;
+  width: 40px;
+  height: 34px;
+  position: relative;
+  left: 90px;
+  bottom: 2px;
+}
+
+.burger-symbol {
+  width: 35px;
+  height: 32px;
+  margin: auto;
+  cursor: pointer;
+  position: relative;
+  right: 18px;
+  bottom: 3px;
+}
+
+.burger-symbol::before,
+.burger-symbol span,
+.burger-symbol::after {
+  width: 32px;
+  height: 4.2px;
+  background: #4d604a;
+  position: absolute;
+  opacity: 1;
+}
+
+.burger-symbol::before,
+.burger-symbol::after {
+  transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    -webkit-transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+  content: "";
+}
+
+.burger-symbol::before {
+  top: 4px;
+}
+
+.burger-symbol span {
+  top: 15px;
+}
+
+.burger-symbol::after {
+  top: 25px;
+}
+
+.burger-symbol:hover::before {
+  top: 15px;
+  rotate: 45deg;
+}
+
+.burger-symbol:hover::after {
+  opacity: 1;
+  rotate: -45deg;
+  top: 15px;
+}
+
+.burger-symbol:hover span {
+  rotate: -45deg;
+  opacity: 0;
 }

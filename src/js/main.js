@@ -51,7 +51,7 @@ function changeBg() {
 
 window.addEventListener("scroll", changeBg);
 
-var burger = document.querySelector(".header-burger-menu");
+var burger = document.querySelector(".burger-test");
 var navigation = document.querySelector(".burger-nav");
 var openNavigation = function (event) {
   event.preventDefault();
