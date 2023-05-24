@@ -46,6 +46,12 @@
   color: white;
 }
 
+.about-btn-shops:hover,
+.about-btn-recipes:hover {
+  background-color: #89966d;
+  border: #89966d 2px solid;
+}
+
 .about-btn-shops p,
 .about-btn-recipes p {
   color: white;
@@ -77,6 +83,7 @@ hr {
 .about-btn-shop {
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding-left: 30px;
 }
 

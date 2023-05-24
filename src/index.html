@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <div class="header-background-img">
+      <div id="header" class="header-background-img">
         <div class="container-fluid header-nav-mobile" id="navbar">
           <div class="header-bg">
             <div class="row no-gutter">
@@ -26,7 +26,7 @@
               </div>
               <div class="col-9 col-lg-8">
                 <div class="header-logo">
-                  <a href="">
+                  <a href="#header">
                     <img src="src/img/header-leamo.svg" alt="" />
                   </a>
                 </div>
@@ -103,32 +103,41 @@
       <div class="row no no-gutter">
         <div class="burger-nav">
           <div class="burger-product">
-            <a href=""> <p class="burger-go-to-product">TONICS</p></a>
-            <a href=""> <p class="burger-go-to-product">LIMONADES</p></a
-            ><a href=""> <p class="burger-go-to-product">SODAS</p></a
-            ><a href=""> <p class="burger-go-to-product">GINGER BEERS</p></a>
+            <a href="#soda-title"> <p class="burger-go-to-product">SODAS</p></a>
+            <a href="#limonade-title">
+              <p class="burger-go-to-product">LIMONADES</p></a
+            ><a href="#tonic-title">
+              <p class="burger-go-to-product">TONICS</p></a
+            ><a href="#ginger-title">
+              <p class="burger-go-to-product">GINGER BEERS</p></a
+            >
           </div>
           <div class="burger-contact">
-            <a href="">
+            <a href="https://twitter.com/">
               <img src="src/img/footer-twitter.svg" alt="" />
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/">
               <img src="src/img/button-facebook.svg" alt="" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/">
               <img src="src/img/button-instagram.svg" alt="" />
             </a>
           </div>
           <div class="burger-about">
-            <a href=""> <p class="burger-about-text">Points de vente</p></a>
-            <a href=""> <p class="burger-about-text">Nos recettes</p></a
-            ><a href=""> <p class="burger-about-text">Nos valeurs</p></a>
+            <a href="#localisation-title">
+              <p class="burger-about-text">Points de vente</p></a
+            >
+            <a href="#recipes-title">
+              <p class="burger-about-text">Nos recettes</p></a
+            ><a href="#values-title">
+              <p class="burger-about-text">Nos valeurs</p></a
+            >
           </div>
         </div>
       </div>
     </div>
     <main>
-      <div class="product-soda">
+      <div id="soda-title" class="product-soda">
         <div class="container-fluid">
           <div class="row no-gutter">
             <div class="container">
@@ -156,11 +165,11 @@
                       </h2>
                     </div>
                     <p>
-                      Notre Cola Bio est moins sucré que la plupart des colas et
-                      se distingue. <br />Notre infusion de maté bio est une
+                      Notre Cola Bio est moins sucré que la plupart des colas et
+                      se distingue. <br />Notre infusion de maté bio est une
                       boisson très équilibrée, avec beaucoup de rondeur,
-                      rafraichissante et énergétique.Réalisée à partir de maté
-                      bio, c’est une recette 100% naturelle et sans artifice.
+                      rafraichissante et énergétique.Réalisée à partir de maté
+                      bio, c’est une recette 100% naturelle et sans artifice.
                     </p>
                   </div>
                 </div>
@@ -236,7 +245,7 @@
           </div>
         </div>
       </div>
-      <div class="product-limonade">
+      <div id="limonade-title" class="product-limonade">
         <div class="container-fluid">
           <div class="row no-gutter">
             <div class="product-container">
@@ -260,13 +269,13 @@
                       </h2>
                     </div>
                     <p>
-                      C’est une combinaison de limonade et d’un subtil gout de
+                      C’est une combinaison de limonade et d’un subtil gout de
                       thé revigorant. Nos limonades fifty/fifty sont réaliseés
-                      avec des ingrédients biologiques de première qualité dans
-                      le respect des techniques de fabrications
-                      traditionnelles.  Rafraîchissantes, bio,
-                      et naturelles, les limonades de Leamo sont parfaites pour
-                      accompagner des barbecue entre amis.
+                      avec des ingrédients biologiques de première qualité dans
+                      le respect des techniques de fabrications traditionnelles.
+                      Rafraîchissantes, bio, et naturelles, les limonades de
+                      Leamo sont parfaites pour accompagner des barbecue entre
+                      amis.
                     </p>
                   </div>
                 </div>
@@ -352,7 +361,7 @@
           </div>
         </div>
       </div>
-      <div class="product-tonic">
+      <div id="tonic-title" class="product-tonic">
         <div class="container-fluid">
           <div class="row no-gutter">
             <div class="product-container">
@@ -462,7 +471,7 @@
           </div>
         </div>
       </div>
-      <div class="product-ginger">
+      <div id="ginger-title" class="product-ginger">
         <div class="container-fluid">
           <div class="row no-gutter">
             <div class="product-container">
@@ -576,7 +585,7 @@
           </div>
         </div>
       </div>
-      <div class="about-localisation">
+      <div id="localisation-title" class="about-localisation">
         <div class="container-fluid">
           <div class="row no-gutter">
             <div class="product-container">
@@ -613,13 +622,33 @@
                     </p>
                     <div class="about-btn-shop">
                       <div class="col-6">
-                        <div class="about-shop">
-                          <a href="">
-                            <div class="about-btn about-btn-looking">
-                              <p>Trouver votre ville</p>
-                              <img src="src/img/button-looking.svg" alt="" />
+                        <div class="accordion-button">
+                          <div class="accordion-container">
+                            <div class="accordion-text">
+                              <button class="accordion">
+                                <p>Trouver votre ville</p>
+                                <img src="src/img/button-looking.svg" alt="" />
+                              </button>
+                              <div class="panel">
+                                <a href="">
+                                  <p>Marxis To Paris</p>
+                                  <hr />
+                                </a>
+                                <a href="">
+                                  <p>Siradis</p>
+                                  <hr />
+                                </a>
+                                <a href="">
+                                  <p>Kawika Paris</p>
+                                  <hr />
+                                </a>
+                                <a href="">
+                                  <p>Cafe Tiera</p>
+                                  <hr />
+                                </a>
+                              </div>
                             </div>
-                          </a>
+                          </div>
                         </div>
                       </div>
                       <div class="col-6">
@@ -641,7 +670,7 @@
         </div>
       </div>
       <hr class="about-separation" />
-      <div class="about-recipes">
+      <div id="recipes-title" class="about-recipes">
         <div class="container">
           <div class="row no-gutter">
             <div class="col-12 col-lg-4 offset-lg-4">
@@ -681,7 +710,7 @@
           </div>
         </div>
       </div>
-      <div class="about-values">
+      <div id="values-title" class="about-values">
         <div class="container-fluid">
           <div class="row no-gutter">
             <div class="product-container">
@@ -723,7 +752,7 @@
           </div>
         </div>
       </div>
-
+      <span id="discover-title"></span>
       <div class="about-discover carousel">
         <div class="container-fluid">
           <div class="row">
@@ -853,13 +882,15 @@
           <div class="col-6 col-lg-3">
             <h3>Rubriques</h3>
             <div class="row">
-              <div class="col-12"><a href="">Accueil</a></div>
-              <div class="col-12"><a href="">Sodas</a></div>
-              <div class="col-12"><a href="">Limonades</a></div>
-              <div class="col-12"><a href="">Tonics</a></div>
-              <div class="col-12"><a href="">Gingers</a></div>
-              <div class="col-12"><a href="">Nous trouver</a></div>
-              <div class="col-12"><a href="">Découvrir</a></div>
+              <div class="col-12"><a href="#header">Accueil</a></div>
+              <div class="col-12"><a href="#soda-title">Sodas</a></div>
+              <div class="col-12"><a href="#limonade-title">Limonades</a></div>
+              <div class="col-12"><a href="#tonic-title">Tonics</a></div>
+              <div class="col-12"><a href="#ginger-title">Gingers</a></div>
+              <div class="col-12">
+                <a href="#localisation-title">Nous trouver</a>
+              </div>
+              <div class="col-12"><a href="#discover-title">Découvrir</a></div>
             </div>
           </div>
           <div class="col-6 col-lg-5">
@@ -867,9 +898,15 @@
             <div class="row">
               <div class="col-12"><a href="">à propos</a></div>
               <div class="col-12"><a href="">Mentions légales</a></div>
-              <div class="col-12"><a href="">Contribuer</a></div>
-              <div class="col-12"><a href="">Nous contacter</a></div>
-              <div class="col-12"><a href="">AlterShop</a></div>
+              <div class="col-12">
+                <a href="https://www.spafribourg.ch/">Contribuer</a>
+              </div>
+              <div class="col-12">
+                <a href="https://www.spafribourg.ch/">Nous contacter</a>
+              </div>
+              <div class="col-12">
+                <a href="https://www.alterfood.fr/">AlterShop</a>
+              </div>
             </div>
           </div>
           <div class="col-12">
@@ -883,15 +920,20 @@
           </div>
           <div class="col-12 col-lg-2 offset-lg-4">
             <div class="footer-contacts">
-              <a href=""> <img src="src/img/button-facebook.svg" alt="" /></a>
-              <a href=""> <img src="src/img/button-instagram.svg" alt="" /></a>
-              <a href=""> <img src="src/img/footer-twitter.svg" alt="" /></a>
+              <a href="https://www.facebook.com/">
+                <img src="src/img/button-facebook.svg" alt=""
+              /></a>
+              <a href="https://www.instagram.com/">
+                <img src="src/img/button-instagram.svg" alt=""
+              /></a>
+              <a href="https://www.twitter.com/">
+                <img src="src/img/footer-twitter.svg" alt=""
+              /></a>
             </div>
           </div>
         </div>
       </div>
     </footer>
-
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

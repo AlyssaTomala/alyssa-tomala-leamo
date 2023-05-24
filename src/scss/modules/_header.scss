@@ -18,20 +18,6 @@
   }
 }
 
-h1 {
-  font-family: "Satoshi";
-  font-weight: 700;
-  font-size: 32px;
-  opacity: 0.9;
-  font-size: 32px;
-  letter-spacing: -0.83px;
-  text-align: center;
-  padding: 100px 0 10px;
-  margin-bottom: 55px;
-  -webkit-text-stroke: 0.2px;
-  -webkit-text-stroke-color: #fff5d7;
-}
-
 .header-logo img {
   height: 25px;
   justify-content: center;
@@ -77,6 +63,9 @@ h1 {
 .header-button-stars img {
   height: 49px;
   padding: 0 20px;
+}
+
+.header-button-stars {
   margin-bottom: 150px;
 }
 

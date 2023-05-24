@@ -4,7 +4,7 @@
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 2.99px;
-  text-shadow: 0 2px 19px rgba(0, 0, 0, 0.22);
+  text-shadow: 0 2px 19px rgba(0, 0, 0, 0.32);
   opacity: 0;
   padding: 0;
   position: absolute;
@@ -13,7 +13,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  transition: 0.2s 0.03s ease-in-out;
+  transition: 0.15s 0.03s ease-in-out;
 }
 
 .hover-showcase-title {
@@ -27,4 +27,11 @@
 
 .hover-container:hover .hover-title {
   opacity: 100%;
+}
+
+.hover-container img {
+  transition: transform 0.2s;
+}
+.hover-container:hover img {
+  transform: scale(1.02);
 }

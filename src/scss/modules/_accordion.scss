@@ -1,0 +1,60 @@
+.accordion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 15px 5px;
+  outline: none;
+  transition: 0.4s;
+  border: #95a379 2px solid;
+  width: 165px;
+  height: 45px;
+}
+
+.accordion img {
+  height: 19px;
+}
+
+.accordion p {
+  font-size: 12px;
+  padding: 15px 5px;
+}
+
+.active p,
+.accordion:hover {
+  opacity: 0.8;
+}
+
+.panel {
+  padding: 0 10px;
+  display: none;
+  width: 165px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 2px 7px 0 rgba(222, 222, 222, 0.5);
+  position: relative;
+  top: 66, 5%;
+}
+
+.accordion-text .panel {
+  position: absolute;
+}
+
+.panel p {
+  padding: 10px 2px;
+  font-size: 12px;
+}
+
+.panel a {
+  text-decoration: none;
+}
+
+.panel hr {
+  width: 130px;
+  margin-left: 2px;
+  height: 1px;
+  background-color: #f2f2f2;
+}

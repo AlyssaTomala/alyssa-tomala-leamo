@@ -73,16 +73,15 @@
   background-color: #aaecaa00;
   width: 40px;
   height: 34px;
-  position: relative;
   left: 90px;
-  bottom: 2px;
+  cursor: pointer;
+  padding-left: 20px;
 }
 
 .burger-symbol {
   width: 35px;
   height: 32px;
   margin: auto;
-  cursor: pointer;
   position: relative;
   right: 18px;
   bottom: 3px;
@@ -123,18 +122,20 @@
   top: 25px;
 }
 
-.burger-symbol:hover::before {
-  top: 15px;
-  rotate: 45deg;
-}
+.burger-test.is-active {
+  .burger-symbol::before {
+    top: 15px;
+    rotate: 45deg;
+  }
 
-.burger-symbol:hover::after {
-  opacity: 1;
-  rotate: -45deg;
-  top: 15px;
-}
+  .burger-symbol::after {
+    opacity: 1;
+    rotate: -45deg;
+    top: 15px;
+  }
 
-.burger-symbol:hover span {
-  rotate: -45deg;
-  opacity: 0;
+  .burger-symbol span {
+    rotate: -45deg;
+    opacity: 0;
+  }
 }
